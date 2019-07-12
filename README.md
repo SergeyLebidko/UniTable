@@ -18,8 +18,8 @@
 
 Скриншоты проекта - ниже:
 
-![screenshot][screen1.jpg]
+![screenshot](screen1.jpg)
 
-![screenshot][screen2.jpg]
+![screenshot](screen2.jpg)
 
-![screenshot][screen3.jpg]
+![screenshot](screen3.jpg)
