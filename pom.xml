@@ -60,32 +60,6 @@
                 </executions>
             </plugin>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>copy-resources</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>copy-resources</goal>
-                        </goals>
-                        <configuration>
-                            <resources>
-                                <resource>
-                                    <directory>database</directory>
-                                    <filtering>false</filtering>
-                                    <includes>
-                                        <include>*.*</include>
-                                    </includes>
-                                </resource>
-                            </resources>
-                            <outputDirectory>target/database</outputDirectory>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-
         </plugins>
     </build>
 

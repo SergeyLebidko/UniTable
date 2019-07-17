@@ -7,7 +7,7 @@ import javax.swing.*;
 
 public interface Filter {
 
-    public void setTable(UniTable table);
+    void setTable(UniTable table);
 
     JPanel getVisualComponent();
 
