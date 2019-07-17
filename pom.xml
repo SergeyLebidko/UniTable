@@ -38,7 +38,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib</classpathPrefix>
-                            <mainClass>springtraining.MainClass</mainClass>
+                            <mainClass>unitable.MainClass</mainClass>
                         </manifest>
                         <addMavenDescriptor>false</addMavenDescriptor>
                     </archive>
