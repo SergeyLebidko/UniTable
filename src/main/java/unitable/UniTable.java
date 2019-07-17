@@ -207,7 +207,7 @@ public class UniTable {
     public void setContent(List<? extends DataElement> list) {
         content.clear();
         content.addAll(list);
-        model.refresh();
+        refresh();
     }
 
     public void refresh() {
@@ -217,7 +217,7 @@ public class UniTable {
     public DataElement getSelectedItem() {
         int selectedIndex = table.getSelectedRow();
         if (selectedIndex == (-1)) return null;
-        return content.get(selectedIndex);
+        return checkedContent.get(selectedIndex);
     }
 
     private void createCheckedContentList() {
